@@ -1,0 +1,12 @@
+markdown: kramdown
+theme: null
+sass:
+  style: compressed
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      permalink: "/:path/"
