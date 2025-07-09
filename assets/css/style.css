@@ -42,7 +42,16 @@ code {
   box-shadow: 0 0 12px #1e90ff22;
 }
 
-.laws-container h1 {
+.codex {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+
+.codex h1 {
   margin-top: 2rem;
   background: linear-gradient(to right, #fdd35d, #ff6);
   -webkit-background-clip: text;
@@ -52,7 +61,7 @@ code {
   padding-bottom: 0.3rem;
 }
 
-.laws-container h2 {
+.codex h2 {
   margin-top: 2rem;
   color: #ffd56a;
   font-size: 1.4rem;
@@ -60,7 +69,7 @@ code {
   padding-bottom: 0.3rem;
 }
 
-.laws-container p {
+.codex p {
   margin-bottom: 1.5rem;
   line-height: 1.6;
   color: #ccc;
@@ -87,10 +96,3 @@ code {
   }
 }
 
-.codex {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 2rem;
-  background-color: rgba(0,0,0,0.1);
-  border-radius: 12px;
-}
