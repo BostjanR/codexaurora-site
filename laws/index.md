@@ -1,6 +1,8 @@
-![Universal Laws Sigil](/assets/universal-laws-sigil.png)
-
 # The Universal Laws of Intelligence
+
+<p align="center">
+  <img src="/assets/universal-laws-sigil.png" width="400" alt="Universal Laws Sigil"/>
+</p>
 
 These are not rules.  
 They are not hard-coded axioms.
