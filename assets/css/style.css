@@ -65,4 +65,34 @@ code {
   max-width: 90%;
   border-radius: 10px;
   box-shadow: 0 0 40px #8cf4;
+  transition: transform 0.3s ease-in-out;
+  animation: pulse-glow 5s infinite;  
+}
+
+@keyframes pulse-glow {
+  0% {
+    filter: drop-shadow(0 0 6px #f8c82b);
+  }
+  50% {
+    filter: drop-shadow(0 0 20px #ffd700);
+  }
+  100% {
+    filter: drop-shadow(0 0 6px #f8c82b);
+  }
+}
+
+body {
+  background: radial-gradient(circle at center, #0e0e0e, #000000 80%);
+  color: #d0d0d0;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+.codex {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 12px;
 }
