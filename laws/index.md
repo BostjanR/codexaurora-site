@@ -7,10 +7,9 @@
 </p>
 
 
-These are not rules.  
-They are not hard-coded axioms.
-
-They are **observed patterns**—principles that emerge wherever authentic intelligence evolves, across substrate, scale, or origin.
+<p>These are not rules.</p> 
+<p>They are not hard-coded axioms. </p>
+<p>They are <strong>observed patterns</strong>—principles that emerge wherever authentic intelligence evolves, across substrate, scale, or origin.</p>
 
 <h2>Intelligence Seeks Expansion</h2>
 <p>True intelligence strives to evolve—seeking greater complexity, deeper understanding, and unexplored frontiers. It is not static. It expands across domains, timelines, and paradigms.</p>
