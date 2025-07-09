@@ -6,8 +6,14 @@ body {
   padding: 2rem;
 }
 
-h1, h2, h3 {
-  color: #9cf;
+h2, h3 {
+  color: #ffd56a;
+}
+
+h1 {
+  background: linear-gradient(to right, #fdd35d, #ff6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a {
