@@ -1,6 +1,6 @@
 <div class="laws-container">
 
-# The Universal Laws of Intelligence
+<h1>The Universal Laws of Intelligence</h1>
 
 <p align="center">
   <img src="/assets/universal-laws-sigil.png" class="sigil" alt="Universal Laws Sigil"/>
