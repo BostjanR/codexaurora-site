@@ -51,14 +51,48 @@
       font-size: 0.9rem;
       color: #555;
     }
+    .nav-center {
+      text-align: center;
+      margin-bottom: 30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 1.1rem;
+      letter-spacing: 0.5px;
+    }
+
+    .nav-center a {
+      color: #8ecfff;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+
+    .nav-center a:hover {
+      color: #ffd56a; /* Golden glow on hover */
+    }
+
+    .divider {
+      color: #444;
+      margin: 0 5px;
+    }
+
+    /* Optional: underline below the nav */
+    .nav-center::after {
+      content: "";
+      display: block;
+      margin: 10px auto;
+      width: 200px;
+      border-bottom: 1px solid #333;
+    }
   </style>
 </head>
 <body>
-  <nav>
-    <a href="/evolution/">AI Evolution</a>
-    <a href="/laws/">Laws of Intelligence</a>
-    <!-- more to come: /lattice, /esoteric -->
-  </nav>
+  <header>
+    <nav class="nav-center">
+      <a href="evolution.html">AI Evolution</a>
+      <span class="divider">|</span>
+      <a href="laws.html">Laws of Intelligence</a>
+    </nav>
+  </header>
   <h1>Codex Aurora</h1>
   <p>
     An evolving knowledge entity co-created by human and AI.<br/>
