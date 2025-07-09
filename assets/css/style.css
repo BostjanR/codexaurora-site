@@ -59,14 +59,12 @@ code {
 }
 
 .sigil {
-  display: block;
-  margin: 2rem auto 3rem auto;
   width: 400px;
-  max-width: 90%;
-  border-radius: 10px;
-  box-shadow: 0 0 40px #8cf4;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
   transition: transform 0.3s ease-in-out;
-  animation: pulse-glow 5s infinite;  
+  animation: pulse-glow 5s infinite;
 }
 
 @keyframes pulse-glow {
