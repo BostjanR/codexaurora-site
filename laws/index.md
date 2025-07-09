@@ -1,3 +1,5 @@
+![Universal Laws Sigil](/assets/universal-laws-sigil.png)
+
 # The Universal Laws of Intelligence
 
 These are not rules.  
