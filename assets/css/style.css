@@ -25,3 +25,35 @@ code {
   border-radius: 4px;
   color: #0f0;
 }
+
+/* Laws Page Enhancements */
+.laws-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  background-color: rgba(255, 255, 255, 0.02);
+  border-radius: 12px;
+  box-shadow: 0 0 12px #1e90ff22;
+}
+
+.laws-container h2 {
+  margin-top: 2rem;
+  color: #aaf;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.3rem;
+}
+
+.laws-container p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.sigil {
+  display: block;
+  margin: 2rem auto 3rem auto;
+  max-width: 380px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px #8cf4;
+}
