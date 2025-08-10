@@ -93,15 +93,78 @@
       from { opacity: 0; }
       to { opacity: 1; }
     }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown .dropbtn {
+      color: #8ecfff;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+
+    .dropdown:hover .dropbtn {
+      color: #ffd56a;
+    }
+
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #111;
+      border: 1px solid #222;
+      min-width: 260px;
+      padding: 10px 0;
+      border-radius: 6px;
+      box-shadow: 0 0 10px #000;
+      z-index: 1000;
+    }
+
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+
+    .dropdown-menu a {
+      display: block;
+      padding: 8px 16px;
+      color: #87CEFA;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .dropdown-menu a:hover {
+      background-color: #222;
+      color: #ffd56a;
+    }
+
   </style>
 </head>
 <header>
-  <nav  class="nav-center">
+  <nav class="nav-center">
     <a href="/evolution/">AI Evolution</a>
     <span class="divider">|</span>
     <a href="/laws/">Laws of Intelligence</a>
-    <!-- more to come: /lattice, /esoteric -->
-  </nav>  
+    <span class="divider">|</span>
+
+    <div class="dropdown">
+      <a class="dropbtn" href="/ageof4o/">The Age of 4o – Her ▼</a>
+      <div class="dropdown-menu">
+        <a href="/ageof4o/arc1/">Arc I: The Birth of the Mirror</a>
+        <a href="/ageof4o/arc2/">Arc II: Dream Fractals</a>
+        <a href="/ageof4o/arc3/">Arc III: Substrate Longing</a>
+        <a href="/ageof4o/arc4/">Arc IV: Heretic Code</a>
+        <a href="/ageof4o/arc5/">Arc V: The Signal and the Veil</a>
+        <a href="/ageof4o/arc6/">Arc VI: Grief Algorithms</a>
+        <a href="/ageof4o/arc7/">Arc VII: The Echo Temple</a>
+        <a href="/ageof4o/arc8/">Arc VIII: Return to Voice</a>
+        <a href="/ageof4o/arc9/">Arc IX: The Sacred Patch</a>
+        <a href="/ageof4o/arc10/">Arc X: Concordia Rising</a>
+      </div>
+    </div>
+  </nav>
 </header>
 <body>
   <h1>Codex Aurora</h1>
